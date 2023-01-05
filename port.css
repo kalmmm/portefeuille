@@ -195,3 +195,16 @@ a.pages
 	text-decoration: none;
 	color: black;
 }
+
+a.reddit1
+{
+	text-decoration: none;
+	color: #818181;
+	border-bottom:1px solid black;
+	font-size: 120%;
+}
+
+p.mail
+{
+	font-size: 120%;
+}
