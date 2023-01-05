@@ -1,12 +1,14 @@
 @import url('https://fonts.cdnfonts.com/css/raleway-5');
 
-body {
+body
+{
 	font-family: 'Roboto Condensed', sans-serif;
 	padding: 0 2%;
 	margin: 0;
 }
 
-nav {
+nav
+{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -15,25 +17,34 @@ nav {
 	position: sticky;
 	top: 0;
 }
-nav .profile {
+
+nav .profile
+{
 	display: flex;
 	align-items: center;
 }
 
-nav .profile h1 {
+nav .profile h1
+{
 	margin-left: 0px;
 	font-size: 26px;
 }
-nav ul {
+
+nav ul
+{
 	display: flex;
 	list-style-type: none;
 }
-nav ul li {
+
+nav ul li
+{
 	margin-left: 20px;
 	cursor: pointer;
 	border-bottom: 1px solid white;
 }
-nav ul li:hover {
+
+nav ul li:hover
+{
 	border-bottom-color: black;
 }
 
@@ -68,29 +79,35 @@ nav ul li:hover {
 {
 	margin-top: 6%;
 }
+
 .page-content .projects-section h1
 {
 	text-transform: uppercase;
 	font-size: 3vw;
 }
+
 .page-content .projects-section .projects
 {
 	display: flex;
 	flex-wrap: wrap;
 }
+
 .page-content .projects-section .project
 {
 	margin-right: 20px;
 	max-width: 195px;
 }
+
 .page-content .projects-section .project h4
 {
 	margin: 0;
 }
+
 .page-content .projects-section .project .description
 {
-	font-size: 10px;
+	font-size: 13px;
 }
+
 .page-content .projects-section .project .dates
 {
 	font-size: 13px;
@@ -115,25 +132,34 @@ footer
 		justify-content: center;
 	}
 
+	/*nav ul
+	{
+		display: none;
+	}*/
+
 	.page-content header
 	{
 		margin-top: 10%;
 		max-width: 100%;
 	}
+
 	.page-content .projects-section
 	{
 		margin-top: 15%;
 	}
+
 	.page-content .projects-section h1
 	{
 		font-size: 1.5em;
 	}
+
 	.page-content .projects-section .project
 	{
 		margin-right: 0;
 		margin-bottom: 20px;
 		max-width: 100%;
 	}
+
 	.page-content .projects-section .project .description
 	{
 		font-size: 13px;
@@ -143,4 +169,10 @@ footer
 		{
 		justify-content: flex-start;
 		}
+}
+
+a.reddit
+{
+	text-decoration: none;
+	color: black;
 }
