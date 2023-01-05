@@ -177,3 +177,21 @@ a.reddit
 	text-decoration: none;
 	color: black;
 }
+
+p.pagetitle
+{
+	font-size: 50px;
+	margin-left: 25%;
+	font-weight: 1000;
+}
+
+div.bordure 
+{
+	border-bottom:4px solid black;
+}
+
+a.pages
+{
+	text-decoration: none;
+	color: black;
+}
