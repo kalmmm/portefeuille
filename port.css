@@ -130,7 +130,7 @@ footer
 
 	.miniImg
 	{
-    height: 80%;
+    		height: 40%;
 	}
 	
 	nav
@@ -337,7 +337,7 @@ p.paragraphright
 
 .miniImg
 {
-    height: 85%;
+    height: 80%;
 	border: solid 24px whitesmoke
 }
 
