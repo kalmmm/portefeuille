@@ -131,7 +131,7 @@ footer
 
 .miniImg
 {
-    	height: 75%;
+    height: 75%;
 	border: solid 16px whitesmoke
 }
 
@@ -140,7 +140,7 @@ footer
 
 	.miniImg
 	{
-   		height: 50%;
+    height: 50%;
 	}
 	
 	nav
@@ -398,6 +398,7 @@ p.paragraphright
 {
 	text-align: centrer;
 	justify-content: center;
+	position: relative;
 }
   
 .modal_close 
