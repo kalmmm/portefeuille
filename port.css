@@ -304,14 +304,14 @@ p.paragraphright
 
 .picfriends
 {
-	width: 30%;
+	width: 28%;
 	margin-left: 1%;
 	cursor: pointer;
 }
 
 .picfriends:hover
 {
-	border: solid 12px lightgrey;
+	border: solid 10px lightgrey;
 	transition: all .5s;
 }
 
@@ -329,19 +329,19 @@ p.paragraphright
 
 .picleft:hover
 {
-	border: solid 12px lightgrey;
+	border: solid 10px lightgrey;
 	transition: all .5s;
 }
 
 .picright:hover
 {
-	border: solid 12px lightgrey;
+	border: solid 10px lightgrey;
 	transition: all .5s;
 }
 
 .picrightvertical:hover
 {
-	border: solid 12px lightgrey;
+	border: solid 10px lightgrey;
 	transition: all .5s;
 }
 
