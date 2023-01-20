@@ -48,19 +48,23 @@ nav ul li:hover
 	border-bottom-color: black;
 }
 
-.page-content {
+.page-content 
+{
 	margin: 1%;
 }
-.page-content header {
+.page-content header 
+{
 	margin-top: 5%;
 	max-width: 80%;
 }
-.page-content header h1 {
+.page-content header h1 
+{
 	margin: 0;
 	text-transform: uppercase;
 	font-size: 5vw;
 }
-.page-content header p {
+.page-content header p 
+{
 	line-height: 30px;
 	color: #818181;
 }
@@ -125,12 +129,18 @@ footer
 	color: white;
 }
 
+.miniImg
+{
+    height: 75%;
+	border: solid 24px whitesmoke
+}
+
 @media screen and (max-width: 700px)
 {
 
 	.miniImg
 	{
-    		height: 40%;
+    height: auto;
 	}
 	
 	nav
@@ -335,12 +345,6 @@ p.paragraphright
 	transition: all .5s;
 }
 
-.miniImg
-{
-    height: 80%;
-	border: solid 24px whitesmoke
-}
-
 .photosdroite
 {
 	justify-content: center;
@@ -376,6 +380,7 @@ p.paragraphright
 	opacity: 0;
 	position: fixed;
 	align-items: center;
+	text-align: center;
 	justify-content: center;
 	right: 0; top:0;
  	bottom:0 ; left: 0;
@@ -391,18 +396,14 @@ p.paragraphright
 
 .modal_content 
 {
-	align-items: center;
+	text-align: centrer;
 	justify-content: center;
-	position: relative;
 }
   
 .modal_close 
 {
-	margin-right: 0px;
-	right: 0px;
-	font-size: 200%;
+	font-size: 250%;
 	color: white;
-	position: absolute;
 	text-decoration: none;
 }
 
