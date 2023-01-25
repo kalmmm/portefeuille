@@ -27,7 +27,7 @@ nav .profile
 nav .profile h1
 {
 	margin-left: 0px;
-	font-size: 26px;
+	font-size: 28px;
 }
 
 nav ul
@@ -66,7 +66,6 @@ nav ul li:hover
 .page-content header p 
 {
 	line-height: 30px;
-	color: #818181;
 }
 
 .page-content .presentation-image
@@ -102,17 +101,17 @@ nav ul li:hover
 	max-width: 195px;
 }
 
-.page-content .projects-section .project h4
+.page-content .projects-section .project
 {
 	margin: 0;
 }
 
-.page-content .projects-section .project .description
+.page-content .projects-section .project
 {
 	font-size: 13px;
 }
 
-.page-content .projects-section .project .dates
+.page-content .projects-section .project
 {
 	font-size: 13px;
 	color: rgb(145, 145, 145);
@@ -135,12 +134,23 @@ footer
 	border: solid 16px whitesmoke
 }
 
+.miniImg1
+{
+    height: 75%;
+	border: solid 16px whitesmoke
+}
+
 @media screen and (max-width: 700px)
 {
 
 	.miniImg
 	{
-    height: 58%;
+    height: 50%;
+	}
+
+	.miniImg
+	{
+    height: 44%;
 	}
 	
 	nav
@@ -204,13 +214,6 @@ p.pagetitle
 {
 	font-size: 50px;
 	margin-left: 25%;
-	font-weight: 1000;
-}
-
-.pagetitle1
-{
-	font-size: 50px;
-	margin-left: 18%;
 	font-weight: 1000;
 }
 
@@ -411,4 +414,22 @@ p.paragraphright
 .video
 {
 	margin-left: 4%;
+}
+
+.fade
+{
+	-webkit-animation: fadein 1.6s;
+}
+
+@-webkit-keyframes fadein
+{
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.icons
+{
+	width: 60%;
+	margin: 1%;
+	margin-left: 10%;
 }
