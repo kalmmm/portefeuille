@@ -429,7 +429,11 @@ p.paragraphright
 
 .icons
 {
-	width: 60%;
-	margin: 1%;
-	margin-left: 10%;
+	width: 5%;
+}
+
+.rep
+{
+	text-decoration: none;
+	color: black;
 }
