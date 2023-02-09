@@ -130,13 +130,13 @@ footer
 
 .miniImg
 {
-    height: 75%;
+    height: 80%;
 	border: solid 16px whitesmoke
 }
 
 .miniImg1
 {
-    height: 75%;
+    height: 80%;
 	border: solid 16px whitesmoke
 }
 
@@ -145,12 +145,7 @@ footer
 
 	.miniImg
 	{
-    height: 50%;
-	}
-
-	.miniImg
-	{
-    height: 44%;
+    height: 60%;
 	}
 	
 	nav
